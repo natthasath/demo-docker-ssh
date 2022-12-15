@@ -1,8 +1,6 @@
-# demo-docker-ssh
-
 # 🎉 Demo Docker SSH
 
-FastAPI framework, high performance, easy to learn, fast to code, ready for production
+SSH into Docker Container on Ubuntu latest version with generate ssh-keygen script
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
