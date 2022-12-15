@@ -1,2 +1,2 @@
 #!/bin/bash
-yes id_rsa | ssh-keygen -q -t rsa -N '' > /dev/null
+yes id_rsa | ssh-keygen -q -t rsa -f ./ -N '' > /dev/null
