@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+ENV DEBCONF_NOWARNINGS="yes"
 RUN apt-get update && apt-get install -y nocache openssh-server
 RUN groupadd sshgroup && useradd -ms /bin/bash -g sshgroup sshuser
 RUN mkdir -p /home/sshuser/.ssh
