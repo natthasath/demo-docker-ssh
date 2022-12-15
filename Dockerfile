@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-RUN apt update && apt install openssh-server sudo -y
+RUN apt-get update && apt-get install -y nocache openssh-server
 RUN groupadd sshgroup && useradd -ms /bin/bash -g sshgroup sshuser
 RUN mkdir -p /home/sshuser/.ssh
 COPY id_rsa.pub /home/sshuser/.ssh/authorized_keys
