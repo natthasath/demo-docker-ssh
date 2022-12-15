@@ -12,9 +12,13 @@ SSH into Docker Container on Ubuntu latest version with generate ssh-keygen scri
 ./ssh-keygen.sh
 ```
 
-### 🥈 Run
+### 📲 Access SSH
 
-- ssh -i id_rsa sshuser@localhost -p 2222
+```shell
+ssh -i id_rsa sshuser@localhost -p 2222
+```
+
+### 🥈 Run
 
 ```shell
 docker-compose up -d
