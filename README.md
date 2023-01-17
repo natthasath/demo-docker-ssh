@@ -1,6 +1,6 @@
 # 🎉 Demo Docker SSH
 
-SSH into Docker Container on Ubuntu latest version with generate ssh-keygen script
+Connecting to a running Docker container via SSH to execute commands and access a shell inside the container. This is useful for debugging, troubleshooting, and managing the container. The container must have an SSH server and be running in privileged mode.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
