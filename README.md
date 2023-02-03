@@ -12,14 +12,14 @@ Connecting to a running Docker container via SSH to execute commands and access 
 ./ssh-keygen.sh
 ```
 
-### 📲 Access SSH
-
-```shell
-ssh -i id_rsa sshuser@localhost -p 2222
-```
-
-### 🥈 Run
+### 🏆 Run
 
 ```shell
 docker-compose up -d
+```
+
+### 👉🏻 Try it out
+
+```shell
+ssh -i id_rsa sshuser@localhost -p 2222
 ```
