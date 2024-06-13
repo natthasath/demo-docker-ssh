@@ -7,7 +7,7 @@ services:
     container_name: app
     restart: always
     ports:
-      - "2222:22"
+      - ${APP_PORT}:22
     networks:
       - default
 
